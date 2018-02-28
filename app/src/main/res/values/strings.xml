@@ -1,7 +1,6 @@
 <resources>
     <string name="app_name">CustomerAppDemo</string>
     <string name="name">Username</string>
-    <string name="password">Password</string>
     <string name="login">Login</string>
     <string name="register">Register</string>
     <string name="skip_to_restaurants">Skip to Restaurants</string>
@@ -11,4 +10,10 @@
     <string name="last_name">Last Name</string>
     <string name="address">Address</string>
     <string name="apartment_number">Apartment Number</string>
+    <string name="state_mo">State (MO)</string>
+    <string name="zipcode">Zipcode</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="email_address">Email Address</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
 </resources>

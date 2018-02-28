@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#FFA31E22</color>
+    <color name="colorPrimaryDisabled">#A31E21</color>
+    <color name="colorPrimaryHover">#A31E21</color>
+    <color name="colorPrimaryPressed">#A31E21</color>
+
+    <color name="colorSecondary">#A97C33</color>
+    <color name="colorSecondaryDisabled">#A97C33</color>
+    <color name="colorSecondaryHover">#A97C33</color>
+    <color name="colorSecondaryPressed">#A97C33</color>
+
+    <color name="successGreen">#3AB173</color>
+    <color name="successGreenBackground">#EBF7F1</color>
+
+    <color name="warningYellow">#E0BC28</color>
+    <color name="warningBackground">#FCF8E9</color>
+
+    <color name="errorRed">#F54341</color>
+    <color name="errorBackground">#FCEEED</color>
+
+    <color name="neutralBlue">#3D70B1</color>
+    <color name="neutralBackground">#EBF0F7</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="gray98">#f7f9fa</color>
+    <color name="gray94">#E9ECF0</color>
+    <color name="gray88">#D7DCE0</color>
+    <color name="gray80">#C0C6CC</color>
+    <color name="gray30">#3C444D</color>
+    <color name="gray20">#272D33</color>
+    <color name="gray10">#14171A</color>
+
+</resources>

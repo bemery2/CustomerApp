@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">CustomerAppDemo</string>
+    <string name="name">Username</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="skip_to_restaurants">Skip to Restaurants</string>
+    <string name="username_or_email">Username or Email</string>
+    <string name="send_reset">Send Reset</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="address">Address</string>
+    <string name="apartment_number">Apartment Number</string>
+</resources>

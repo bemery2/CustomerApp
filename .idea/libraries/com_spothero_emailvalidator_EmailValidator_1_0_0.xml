@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="com.spothero.emailvalidator:EmailValidator-1.0.0">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/EmailValidator-1.0.0.aar/254c6cc7871330b82d0de003d3d4218f/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/EmailValidator-1.0.0.aar/254c6cc7871330b82d0de003d3d4218f/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

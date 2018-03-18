@@ -2,14 +2,14 @@
 <resources>
 
     <color name="colorPrimary">#FFA31E22</color>
-    <color name="colorPrimaryDisabled">#A31E21</color>
-    <color name="colorPrimaryHover">#A31E21</color>
-    <color name="colorPrimaryPressed">#A31E21</color>
+    <color name="colorPrimaryDisabled">#d08f91</color>
+    <color name="colorPrimaryHover">#b04043</color>
+    <color name="colorPrimaryPressed">#7b181b</color>
 
     <color name="colorSecondary">#A97C33</color>
-    <color name="colorSecondaryDisabled">#A97C33</color>
-    <color name="colorSecondaryHover">#A97C33</color>
-    <color name="colorSecondaryPressed">#A97C33</color>
+    <color name="colorSecondaryDisabled">#d3bd99</color>
+    <color name="colorSecondaryHover">#b59052</color>
+    <color name="colorSecondaryPressed">#805e28</color>
 
     <color name="successGreen">#3AB173</color>
     <color name="successGreenBackground">#EBF7F1</color>

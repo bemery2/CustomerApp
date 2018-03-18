@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/SharedOnGit.iml" filepath="$PROJECT_DIR$/SharedOnGit.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CustomerAppDemo.iml" filepath="$PROJECT_DIR$/CustomerAppDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>

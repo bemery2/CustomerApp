@@ -32,14 +32,16 @@ public class ActivityLogIn extends AppCompatActivity implements View.OnClickList
         if (view.getId() == R.id.login_button) {
             if (username.equals(usernameEntered.getText().toString()) && password.equals(passwordEntered.getText().toString())) {
                 Toast.makeText(this, "Successfully Logged In", Toast.LENGTH_LONG).show();
-                newIntent = new Intent();
+                newIntent = new Intent(this, ActivityRestaurant.class);
             } else {
                 Toast.makeText(this, "Failed to Log In", Toast.LENGTH_LONG).show();
             }
         } else if (view.getId() == R.id.forgot_password) {
-            newIntent = new Intent();
+            newIntent = new Intent(this, ActivityForgotPassword.class);
         } else if (view.getId() == R.id.sign_up) {
-            setContentView(R.layout.activity_register);
+            newIntent = new Intent(this, ActivityRegister.class);
+        } else if (view.getId() == R.id.skip_to_restaurants){
+            newIntent = new Intent(this, ActivityRestaurant.class);
         }
         if (newIntent != null) {
             startActivity(newIntent);

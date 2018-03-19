@@ -1,5 +1,6 @@
 package byranemery.csc445.customerappdemo;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
@@ -38,10 +39,19 @@ public class ActivityRegister extends AppCompatActivity implements View.OnClickL
     }
     @Override
     public void onClick(View v) {
+        Intent newIntent = null;
         if (v.getId() == R.id.submit_button){
             if (validateEmail() && password.getText().toString().equals(cpassword.getText().toString())){
                 Toast.makeText(this, "successful", Toast.LENGTH_SHORT).show();
+                newIntent = new Intent(this, ActivityLogIn.class);
             }
+        }else if(v.getId() == R.id.b2login_button){
+            newIntent = new Intent(this, ActivityLogIn.class);
+        }else if(v.getId() == R.id.skip2_button){
+            newIntent = new Intent(this, ActivityRestaurant.class);
+        }
+        if (newIntent != null){
+            startActivity(newIntent);
         }
     }
 }
